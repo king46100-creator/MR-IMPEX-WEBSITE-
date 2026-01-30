@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MR IMPEX | Business Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #0a3d62;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+    }
+    nav {
+      background: #082f49;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #0a3d62;
+    }
+    .info-list {
+      list-style: none;
+      padding: 0;
+    }
+    .info-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .info-list li strong {
+      display: inline-block;
+      width: 150px;
+    }
+    footer {
+      background: #082f49;
+      color: #fff;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+      .info-list li strong {
+        width: auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>MR IMPEX</h1>
+    <p>Trusted Business & Trading Company</p>
+  </header>  <nav>
+    <a href="#about">About Us</a>
+    <a href="#details">Company Details</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container"><div class="card" id="about">
+  <h2>About Us</h2>
+  <p>
+    MR IMPEX is a professional business enterprise based in Moradabad, India. 
+    We are committed to providing reliable services, maintaining transparency, 
+    and building long-term relationships with our clients.
+  </p>
+</div>
+
+<div class="card" id="details">
+  <h2>Company Information</h2>
+  <ul class="info-list">
+    <li><strong>Company Name:</strong> MR IMPEX</li>
+    <li><strong>GST Number:</strong> 09ACWPC5312K1ZB</li>
+    <li><strong>Location:</strong> Kathabag, Moradabad</li>
+    <li><strong>Country:</strong> India</li>
+  </ul>
+</div>
+
+<div class="card" id="contact">
+  <h2>Contact Us</h2>
+  <ul class="info-list">
+    <li><strong>Phone:</strong> +91 98370 94100</li>
+    <li><strong>Address:</strong> Kathabag, Moradabad</li>
+  </ul>
+  <p>
+    Feel free to contact us for business inquiries and partnerships.
+  </p>
+</div>
+
+  </div>  <footer>
+    <p>© 2026 MR IMPEX. All Rights Reserved.</p>
+  </footer></body>
+</html>
